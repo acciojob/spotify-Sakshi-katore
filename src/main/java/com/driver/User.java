@@ -1,12 +1,15 @@
 package com.driver;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class User {
     private String name;
     private String mobile;
 
-    public User() {}
+    public User() {
+
+    }
 
     public User(String name, String mobile) {
         this.name = name;
@@ -29,3 +32,15 @@ public class User {
         this.mobile = mobile;
     }
 }
+//class UserManagement{
+//    private List<User> userList;
+//
+//    public UserManagement(){
+//        this.userList = new ArrayList<>();
+//    }
+//
+//    public void createUser(String name, String mobile){
+//        User newUser = new User(name,mobile);
+//        userList.add(newUser);
+//    }
+//}

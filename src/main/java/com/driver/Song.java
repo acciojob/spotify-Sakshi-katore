@@ -1,5 +1,8 @@
 package com.driver;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Song {
     private String title;
     private int length;
@@ -38,3 +41,28 @@ public class Song {
         this.likes = likes;
     }
 }
+
+
+//public class AddSong {
+//    private List<Song> songList;
+//    private List<Album> albumList;
+//
+//    public AddSong() {
+//        songList = new ArrayList<>();
+//        albumList = new ArrayList<>();
+//    }
+//
+//    public void newSong(String title, Album album) throws Exception {
+//        boolean albumExists = false;
+//        for (Album a : albumList) {
+//            if (a.getTitle().equals(album.getTitle())) {
+//                albumExists = true;
+//                break;
+//            }
+//        }
+//        if (!albumExists) {
+//            throw new Exception("Album '" + album.getTitle() + "' does not exist.");
+//        }
+//        songList.add(new Song(title, album.getTitle()));
+//    }
+//}

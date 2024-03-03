@@ -1,5 +1,6 @@
 package com.driver;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Artist {
@@ -31,3 +32,15 @@ public class Artist {
         this.likes = likes;
     }
 }
+//class AddArtist{
+//    private List<Artist> artistList;
+//
+//    public AddArtist(){
+//        this.artistList = new ArrayList<>();
+//    }
+//
+//    public void newArtist(String name){
+//        Artist artist = new Artist(name);
+//        artistList.add(artist);
+//    }
+//}
